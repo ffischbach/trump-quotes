@@ -14,3 +14,73 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.backgroundImageTrump {
+  background-image: url("https://pixabay.com/images/id-1547274/");
+}
+
+.button {
+  background-color: #19B3CCB3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: auto;
+  max-width: 25vw;
+  padding: 15px 20vw 15px 20vw;
+  border-radius: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.glassmorphismCard {
+  /* From https://css.glass */
+  background: rgba(25, 179, 204, 0.7);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.7px);
+  -webkit-backdrop-filter: blur(7.7px);
+  border: 1px solid rgba(25, 179, 204, 0.59);
+
+  width: 70vw;
+  height: 40vh;
+  margin: auto;
+  justify-content: center;
+}
+
+.boxpadding{
+  padding: 20px;
+}
+
+.quoteStyle {
+  margin: 1em;
+  font: 1.8rem/1.4 Georgia, serif;
+}
+
+blockquote::before {
+  content: open-quote;
+}
+blockquote::after {
+  content: close-quote;
+}
+blockquote {
+  quotes: "“" "”" "‘" "’";
+}
