@@ -27,7 +27,10 @@ export default function Hero() {
                         {isLoading ?
                             <p>Loading...</p>
                             :
-                            <blockquote className="quoteText">{quote.value}</blockquote>
+                            <div className="center flex-column">
+                                <blockquote className="quoteText">{quote.value}</blockquote>
+                                <a className="link" href={"https://tronalddump.io/quote/"+quote.quote_id}>Link to Source</a>
+                            </div>
                         }
                     </div>
                 </div>

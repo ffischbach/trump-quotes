@@ -84,3 +84,10 @@ blockquote::after {
 blockquote {
   quotes: "“" "”" "‘" "’";
 }
+
+.link {
+  margin: auto;
+  text-decoration: underline;
+  font-size: large;
+
+}
