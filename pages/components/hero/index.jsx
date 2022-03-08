@@ -21,7 +21,7 @@ export default function Hero() {
     return(
         <div className="backgroundImageTrump">
             <div className="center flex-column">
-                <h1 className="center">Dump Trump Quotes</h1>
+                <h1 className="center">Trump Quotes</h1>
                 <div className="boxpadding center">
                     <div className="glassmorphismCard center quoteStyle">
                         {isLoading ?

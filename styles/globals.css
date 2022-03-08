@@ -60,8 +60,8 @@ a {
   -webkit-backdrop-filter: blur(7.7px);
   border: 1px solid rgba(25, 179, 204, 0.59);
 
-  width: 70vw;
-  height: 40vh;
+  width: auto;
+  height: auto;
   margin: auto;
   justify-content: center;
 }
